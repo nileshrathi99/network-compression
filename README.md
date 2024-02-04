@@ -30,6 +30,13 @@
 4. Updated weights using backpropagation with the assumption of a perfect identity derivative.
 5. Reported and analyzed the test-time classification accuracy, observing the impact of dynamic SVD on compression and performance.
 
+
+### Dynamic SVD Performance Boost
+- Achieved a notable performance boost for the D=20 compressed network, achieving an accuracy of around 97%.
+- Remarkable memory savings, with the compressed network utilizing only about 2% of the original memory footprint.
+- Demonstrated the effectiveness of dynamic SVD during training as a powerful technique for compressing neural networks while maintaining performance.
+
+
 ### Implementation Details
 - Used PyTorch SVD implementations during the feedforward process.
 - Experimented with hyperparameters to strike a balance between compression and performance.
